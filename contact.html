@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact | Anna Wolf</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css"/>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="index.html">Anna Wolf</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="portfolio.html">Portfolio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="contact.html">Contact</a>  
+      </li>
+    </ul>
+  </div>
+</nav>
+
+<div id="main-container" class="container">
+  <div class="row">
+
+    <section class="main-section col-lg-8">
+      <div class="card">
+        <h3 class="card-header">Contact</h3>
+        <form class="contact-form">
+          <div class="form-group ">
+            <label for="name">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="John Smith" required="required">
+          </div>
+          <div class="form-group ">
+            <label for="staticEmail">Email</label>
+              <input type="text" class="form-control" id="staticEmail" placeholder="email@example.com" required="required">
+          </div>
+          <div class="form-group ">
+            <label for="message">Message</label>
+              <textarea class="form-control" id="message" name="message" required="required"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
+    </section>
+
+    <section class="sidebar col-lg-4">
+      <div class="card" style="width: 18rem;">
+        <div id="connect">
+          <h3 class="card-header">Connect with Me</h3>
+          <ul class="nav justify-content-center">
+           <li class="nav-item"><a href="#"><img src="images/github-icon.png" class="social" alt="GitHub" /></a></li>
+           <li class="nav-item"><a href="#"><img src="images/linkedin-icon.png" class="social" alt="LinkedIn" /></a></li>
+           <li class="nav-item"><a href="#"><img src="images/stackoverflow-icon.png" class="social" alt="Stack Overflow" /></a></li>
+         </ul>
+       </div>
+     </div>
+   </section>
+ </div>
+</div>
+
+<div class="card fixed-bottom">
+  <div class="card-header text-center">
+    Copyright &copy; Anna Wolf 2018
+  </div>
+</div>
+</body>
+</html>
